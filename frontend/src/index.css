@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+  margin: 0;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+/* Markdown in chat */
+.chat-markdown p {
+  @apply mb-2 last:mb-0;
+}
+.chat-markdown ul {
+  @apply list-disc pl-5 mb-2;
+}
+.chat-markdown ol {
+  @apply list-decimal pl-5 mb-2;
+}
+.chat-markdown li {
+  @apply mb-1;
+}
+.chat-markdown strong {
+  @apply font-semibold;
+}
+.chat-markdown h3 {
+  @apply font-semibold text-base mt-3 mb-1;
+}
