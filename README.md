@@ -2,7 +2,7 @@
 
 AI-powered car buying advisor that helps confused buyers go from **"I don't know what to buy"** to **"I'm confident about my shortlist."**
 
-> **Try it locally:** [http://localhost:5173](http://localhost:5173)
+> **Try it locally:** Please follow the quick start guide.
 
 ## What It Does
 
