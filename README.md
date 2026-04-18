@@ -193,10 +193,9 @@ Replace static JSON filtering with real API calls:
 - Especially valuable for the Indian market where voice-first interaction is more natural for many buyers
 
 ### Other Additions
-- **Streaming responses** via WebSocket for perceived speed
+- **Redis caching** — cache LLM responses for frequently asked queries (e.g., "best SUV under 15 lakhs") to reduce latency and API costs. Also useful for rate limiting, session storage, and caching car search results so                       repeated filters don't recompute
 - **Session persistence** — save conversation and shortlist to resume later
 - **EMI calculator** — inline loan/EMI estimates based on car price
 - **On-road price estimation** — add RTO, insurance, and accessory cost estimates by city
 - **Car images** — visual cards with actual car photos from a CDN
 - **Analytics** — track which cars get recommended most, common budgets, drop-off points
-- **Redis caching** — cache LLM responses for frequently asked queries (e.g., "best SUV under 15 lakhs") to reduce latency and API costs. Also useful for rate limiting, session storage, and caching car search results so repeated filters don't recompute
